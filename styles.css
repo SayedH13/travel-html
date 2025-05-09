@@ -1,0 +1,289 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.first-page{
+  width: 100%;
+  height: 100vh;
+  background:linear-gradient(rgba(0,0,0,.4)), url(bg-1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.logo{
+  font-size: 35px;
+  margin: 0 70px;
+  padding: 20px 0;
+  
+}
+.logo a{
+  text-decoration: none;
+  color: aqua;
+}
+.navbar{
+  width: 1300px;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+.navbar ul li{
+  display: inline-block;
+margin-left: 25px;
+font-size: 20px;
+padding: 20px 0;
+font-weight: 600;
+
+
+}
+.navbar ul li a{
+  text-decoration: none;
+  color: rgb(7, 63, 63);
+
+}
+.navbar ul li a:hover{
+  color: white;
+}
+
+.content{
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+  margin: 120px 0;
+  
+  text-align:center;
+}
+h1{
+margin-bottom: 20px;
+font-size: 70px;
+color: hsl(180, 26%, 77%);
+font-weight: 500;
+}
+p{
+padding: 0 5px;
+color: rgb(14, 14, 14);
+font-size: 18px;
+
+}
+.btn{
+  padding:10px;
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  background: none;
+  
+}
+.btn a{
+  text-decoration: none;
+  color: rgb(231, 213, 213);
+  
+}
+.second-page{
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+}
+.main-header{
+  width: 100%;
+  align-items: center;
+  text-align: center;
+}
+.large{
+  font-size: 30px;
+padding-top: 50px;
+  
+  
+}
+p.pra{
+  padding-top: 20px;
+
+}
+
+.gallarey{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin: 10px;
+ 
+  
+}
+
+.img-card {
+  margin: 13px;
+}
+.country__name{
+  text-transform: capitalize;
+  font-size: 20px;
+  
+}
+.country__name a{
+  color: black;
+  text-decoration: none;
+
+}
+.pra-bootom {
+  display: flex;
+  padding-top: 20px;
+  font-style: italic;
+  align-items:center ;
+  justify-content: flex-start;
+  
+
+}
+i{
+  font-size: 20px;
+  color: rgb(107, 104, 104);
+}
+.country__name a:hover{
+color: rgb(78, 23, 114);
+
+}
+.third-page{
+  width: 100%;
+  height: 60vh;
+  background-image:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url(bg-2.jpg);
+  background-size: cover;
+  background-position: center;
+  
+  
+}
+.data{
+  text-align: end;
+  width: 1200px;
+  align-items: center;
+  padding-top: 70px;
+  ;
+
+
+}
+.data h2{
+  padding: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+
+}
+.edata{
+  color: white;
+}
+button{
+  padding: 10px;
+  color: white;
+}
+ .btnn{
+
+  width: 150px;
+  font-size: 19px;
+  background: none;
+  font-weight: 500;
+  border-radius: 8px;
+  margin-top: 30px;
+  margin-right: 80px;
+ }
+ .btnn a{
+   text-decoration:none ;
+   color: white;
+   padding: 10px;
+ }
+ button:hover{
+
+  background: rgb(85, 83, 83);
+ }
+ .fourth-page{
+  width: 100%;
+  height: 100vh;
+  background-color: aqua;
+ } 
+.main-headerr{
+  text-align: center;
+  padding: 30px;
+
+}
+ .title{
+  font-size: 2rem;
+}
+.era{
+  padding: .7rem 0;
+}
+
+
+ .img-gallary{
+  
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+
+ }
+ .card{
+  background-color:rgb(240, 205, 205);
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px ;
+  
+  
+  
+ }
+ .display-card{
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 10px;
+margin: 0 auto;
+ }
+ .ri-earth-line {
+  font-size: 2rem;
+ }
+ .card .has h3{
+  font-size: 25px;
+  padding-bottom: 10px;
+ } 
+ .footer-section{
+  background-color: rgb(23, 21, 21);
+  width: 100%;
+  height: 30vh;
+  color: whitesmoke;
+  padding: 20px;
+ }
+ .trademark{
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+
+ }
+ .logos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+
+ }
+ .logos i{
+  padding: 0 15px;
+  color: white;
+ }
+ .fot-pra{
+  color: white;
+  text-align: center;
+ }
+
+
+ 
+
+
+
+
+
+
